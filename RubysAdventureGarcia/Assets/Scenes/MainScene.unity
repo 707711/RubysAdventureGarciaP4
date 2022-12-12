@@ -91693,6 +91693,7 @@ GameObject:
   - component: {fileID: 949142419}
   - component: {fileID: 949142421}
   - component: {fileID: 949142420}
+  - component: {fileID: 949142422}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -91760,6 +91761,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949142418}
   m_CullTransparentMesh: 1
+--- !u!114 &949142422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949142418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccd40a5cb48d9949933f456da73092d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 0}
 --- !u!1 &1036622883
 GameObject:
   m_ObjectHideFlags: 0
@@ -93272,7 +93286,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9598603, y: 1}
+    m_SensorSize: {x: 1.7250384, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -93453,6 +93467,10 @@ PrefabInstance:
     - target: {fileID: 782113750276319484, guid: 6d469f7a91d7c1945843fbf6c2b96674, type: 3}
       propertyPath: m_Name
       value: Damageable
+      objectReference: {fileID: 0}
+    - target: {fileID: 782113750276319486, guid: 6d469f7a91d7c1945843fbf6c2b96674, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 2.5600033
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d469f7a91d7c1945843fbf6c2b96674, type: 3}
@@ -93720,3 +93738,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89ba6c0c75e2d834cb3d3290f3f46a93, type: 3}
+--- !u!1001 &5057044555348971132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -40.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328746907914806598, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392032336135143887, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
+      propertyPath: m_Name
+      value: Jambi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a5d3c0096d5b984ab11f98f5326b1c2, type: 3}
