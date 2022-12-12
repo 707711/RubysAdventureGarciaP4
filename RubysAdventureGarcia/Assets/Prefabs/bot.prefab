@@ -102,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.029961586, y: -0.60706186}
+  m_Offset: {x: -0.011800766, y: 0.08332062}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0.008333334}
     pivot: {x: 0.5, y: 0.5}
@@ -113,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7153034, y: 0.9192095}
+  m_Size: {x: 0.7856865, y: 1.5167694}
   m_EdgeRadius: 0
 --- !u!50 &4027859490524018595
 Rigidbody2D:
@@ -171,6 +171,7 @@ MonoBehaviour:
   speed: 3
   vertical: 0
   changeTime: 3
+  smokeEffect: {fileID: 6491837593512764324}
 --- !u!1001 &4203495650218999314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4997672785638417713, guid: 85f0ba45b7c4d6645befd7b244d8531d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.04
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 4997672785638417713, guid: 85f0ba45b7c4d6645befd7b244d8531d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -228,6 +229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85f0ba45b7c4d6645befd7b244d8531d, type: 3}
+--- !u!198 &6491837593512764324 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6936232685503847862, guid: 85f0ba45b7c4d6645befd7b244d8531d, type: 3}
+  m_PrefabInstance: {fileID: 4203495650218999314}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9155428740798257955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4997672785638417713, guid: 85f0ba45b7c4d6645befd7b244d8531d, type: 3}
