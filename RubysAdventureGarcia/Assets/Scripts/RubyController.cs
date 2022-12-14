@@ -14,7 +14,7 @@ public class RubyController : MonoBehaviour
     public AudioClip hitSound;
 
     public int health { get { return currentHealth; } }
-    public int currentHealth;
+    int currentHealth;
 
     public float timeInvincible = 2.0f;
     bool isInvincible;
